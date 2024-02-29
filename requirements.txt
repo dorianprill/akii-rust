@@ -1,0 +1,4 @@
+# rise is needed to make interactive slides from notebook cells
+# rust and the rust notebook kernel are installed seperately
+jupyter 
+jupyterlab-rise # use latest version compatible with jupyterlab
