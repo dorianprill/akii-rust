@@ -33,7 +33,7 @@ source .venv/bin/activate
 ```
 
 Jetzt sollten sie sich in einer virtuellen Shell befinden, angezeigt durch den Namen des virtual environments in der Kommandozeile.
-Installieren sie die ABhängigkeiten aus der Datei `requirements.txt` mit `pip`.
+Installieren sie die Abhängigkeiten aus der Datei `requirements.txt` mit `pip`.
 
 ```Bash
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ und installieren sie anschließend den [excvr Rust Kernel nach dieser Anleitung.
 
 ## Das Notebook starten
 
-Die virtuelle muss aktiviert sein, um das Jupyter-Notebook zu starten.
+Die virtuelle Umgebung muss aktiviert sein, um das Jupyter-Notebook zu starten.
 Führen sie folgenden Befehl aus:
 
 ```Bash
@@ -52,4 +52,6 @@ jupyter lab
 ```
 
 und öffnen sie das Notebook `AKII-Rust.ipynb` in Jupyter Lab.
+
+Danach kann das Notebook wie gewohnt bedient werden. Die Interaktive Präsentation kann über das View-Menu gestartet werden.
 
